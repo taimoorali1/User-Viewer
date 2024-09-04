@@ -12,7 +12,7 @@ export const StudentDetailsModal = ({ student, visible, onClose }) => {
       <p><span className="modal-label">Email:</span> {student.email}</p>
       <p><span className="modal-label">Phone:</span> {student.phone}</p>
       <p><span className="modal-label">Grade:</span> {student.grade}</p>
-      <p><span className="modal-label">Country:</span> {student.country}</p>
+      <p><span className="modal-label">Country:</span> {student.address.country}</p>
     </Modal>
   );
 };
