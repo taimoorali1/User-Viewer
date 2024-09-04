@@ -26,7 +26,7 @@ const App = () => {
           </Header>
           <Content style={{ padding: "20px" }}>
             <Routes>
-              <Route path="/" element={<HomePage />} />
+              <Route path="/User-Viewer" element={<HomePage />} />
             </Routes>
           </Content>
         </Layout>
