@@ -1,0 +1,16 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.ant-layout {
+  background-color: #fff;
+}
+.modal-label {
+  font-weight: bold;
+  color: black;
+  font-weight: 700;
+}
+.header_nav{
+  background-color: white;
+  padding-left: 0px;
+}
